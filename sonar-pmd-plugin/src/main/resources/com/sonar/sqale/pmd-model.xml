@@ -4588,7 +4588,7 @@
         </prop>
       </chc>
       <!--newadd-->
-      <!--<chc>
+      <chc>
                 <rule-repo>pmd</rule-repo>
                 <rule-key>MapOrSetKeyShouldOverrideHashCodeEqualsRule</rule-key>
                 <prop>
@@ -4652,7 +4652,7 @@
                     <val>2</val>
                     <txt>min</txt>
                 </prop>
-            </chc>-->
+            </chc>
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>AvoidNegationOperatorRule</rule-key>

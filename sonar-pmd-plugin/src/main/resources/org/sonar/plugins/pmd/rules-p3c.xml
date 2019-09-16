@@ -212,7 +212,7 @@
     </rule>
 	
 	<!--newadd-->
-	<!--<rule key="MapOrSetKeyShouldOverrideHashCodeEqualsRule">
+	<rule key="MapOrSetKeyShouldOverrideHashCodeEqualsRule">
 		<priority>CRITICAL</priority>
 		<configKey><![CDATA[rulesets/java/ali-new.xml/MapOrSetKeyShouldOverrideHashCodeEqualsRule]]></configKey>
 	</rule>
@@ -231,7 +231,7 @@
 	<rule key="AvoidUseDeprecationRule">
 		<priority>CRITICAL</priority>
 		<configKey><![CDATA[rulesets/java/ali-new.xml/AvoidUseDeprecationRule]]></configKey>
-	</rule>-->
+	</rule>
 	<rule key="AvoidNegationOperatorRule">
 		<priority>MAJOR</priority>
 		<configKey><![CDATA[rulesets/java/ali-flowcontrol.xml/AvoidNegationOperatorRule]]></configKey>
