@@ -66,7 +66,7 @@
   </developers>
 
   <properties>
-    <pmd.version>6.10.0</pmd.version>
+    <pmd.version>6.15.0</pmd.version>
     <junit.jupiter.version>5.4.2</junit.jupiter.version>
     <mockito.version>2.27.0</mockito.version>
     <assertj.version>3.12.2</assertj.version>
@@ -143,6 +143,11 @@
       <artifactId>mockito-core</artifactId>
       <version>${mockito.version}</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
