@@ -212,26 +212,26 @@
     </rule>
 	
 	<!--newadd-->
-	<rule key="MapOrSetKeyShouldOverrideHashCodeEqualsRule">
-		<priority>CRITICAL</priority>
-		<configKey><![CDATA[rulesets/java/ali-new.xml/MapOrSetKeyShouldOverrideHashCodeEqualsRule]]></configKey>
-	</rule>
-	<rule key="UseQuietReferenceNotationRule">
-		<priority>MAJOR</priority>
-		<configKey><![CDATA[rulesets/java/ali-new.xml/UseQuietReferenceNotationRule]]></configKey>
-	</rule>
-	<rule key="MissingOverrideAnnotationRule">
-		<priority>BLOCKER</priority>
-		<configKey><![CDATA[rulesets/java/ali-new.xml/MissingOverrideAnnotationRule]]></configKey>
-	</rule>
-	<rule key="AvoidAccessStaticViaInstanceRule">
-		<priority>BLOCKER</priority>
-		<configKey><![CDATA[rulesets/java/ali-new.xml/AvoidAccessStaticViaInstanceRule]]></configKey>
-	</rule>
-	<rule key="AvoidUseDeprecationRule">
-		<priority>CRITICAL</priority>
-		<configKey><![CDATA[rulesets/java/ali-new.xml/AvoidUseDeprecationRule]]></configKey>
-	</rule>
+  <!--<rule key="MapOrSetKeyShouldOverrideHashCodeEqualsRule">
+        <priority>CRITICAL</priority>
+        <configKey><![CDATA[rulesets/java/ali-new.xml/MapOrSetKeyShouldOverrideHashCodeEqualsRule]]></configKey>
+    </rule>
+    <rule key="UseQuietReferenceNotationRule">
+        <priority>MAJOR</priority>
+        <configKey><![CDATA[rulesets/java/ali-new.xml/UseQuietReferenceNotationRule]]></configKey>
+    </rule>
+    <rule key="MissingOverrideAnnotationRule">
+        <priority>BLOCKER</priority>
+        <configKey><![CDATA[rulesets/java/ali-new.xml/MissingOverrideAnnotationRule]]></configKey>
+    </rule>
+    <rule key="AvoidAccessStaticViaInstanceRule">
+        <priority>BLOCKER</priority>
+        <configKey><![CDATA[rulesets/java/ali-new.xml/AvoidAccessStaticViaInstanceRule]]></configKey>
+    </rule>
+    <rule key="AvoidUseDeprecationRule">
+        <priority>CRITICAL</priority>
+        <configKey><![CDATA[rulesets/java/ali-new.xml/AvoidUseDeprecationRule]]></configKey>
+    </rule>-->
 	<rule key="AvoidNegationOperatorRule">
 		<priority>MAJOR</priority>
 		<configKey><![CDATA[rulesets/java/ali-flowcontrol.xml/AvoidNegationOperatorRule]]></configKey>
