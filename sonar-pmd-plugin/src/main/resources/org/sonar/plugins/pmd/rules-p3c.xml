@@ -56,6 +56,10 @@
         <priority>MAJOR</priority>
         <configKey><![CDATA[rulesets/java/ali-concurrent.xml/CountDownShouldInFinallyRule]]></configKey>
     </rule>
+    <rule key="LockShouldWithTryFinallyRule">
+      <priority>MAJOR</priority>
+      <configKey><![CDATA[rulesets/java/ali-concurrent.xml/LockShouldWithTryFinallyRule]]></configKey>
+    </rule>
 
     <!--AlibabaJavaConstants-->
     <rule key="UpperEllRule">
