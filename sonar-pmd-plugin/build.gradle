@@ -7,9 +7,9 @@ dependencies {
     compile 'org.sonarsource.sslr-squid-bridge:sslr-squid-bridge:2.7.0.377'
     compile 'net.sourceforge.pmd:pmd-java:6.15.0'
     compile 'jdom:jdom:1.0'
-    compileOnly 'org.sonarsource.sonarqube:sonar-plugin-api:7.6'
+    compileOnly 'org.sonarsource.sonarqube:sonar-plugin-api:7.8'
     compileOnly 'org.codehaus.staxmate:staxmate:2.0.1'
-    compileOnly 'org.sonarsource.java:java-frontend:5.5.0.14655'
+    compileOnly 'org.sonarsource.java:java-frontend:5.13.0.18197'
 }
 
 task javadocJar(type: Jar) {
@@ -19,3 +19,20 @@ task javadocJar(type: Jar) {
 
 description = 'SonarQube PMD Plugin'
 publishing.publications.maven.artifact(javadocJar)
+
+jar {
+    manifest {
+        attributes 'Plugin-Key': 'sonarpmd-p3c',
+                'Plugin-Name': 'sonarpmd-p3c',
+                'Plugin-Version': "$project.version",
+                'Plugin-ChildFirstClassLoader': 'true',
+                'Plugin-Class': 'org.sonar.plugins.pmd.PmdPlugin',
+                'Plugin-Description': 'SonarQube PMD Plugin For p3c',
+                'Plugin-Developers': 'WSY',
+                'Plugin-Homepage': 'https://github.com/sonuan/sonar-p3c-pmd-3.2.1',
+                'Plugin-IssueTrackerUrl': 'https://github.com/sonuan/sonar-p3c-pmd-3.2.1/issues',
+                'Plugin-License': 'GNU LGPL 3',
+                'Plugin-SourcesUrl': 'https://github.com/sonuan/sonar-p3c-pmd-3.2.1'
+    }
+    into("META-INF/lib") { from { configurations.compile } }
+}

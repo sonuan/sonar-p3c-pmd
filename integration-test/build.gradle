@@ -4,7 +4,7 @@
 
 dependencies {
     testCompile 'org.sonarsource.orchestrator:sonar-orchestrator:3.24.0.1993'
-    compileOnly 'org.sonarsource.sonarqube:sonar-plugin-api:7.6'
+    compileOnly 'org.sonarsource.sonarqube:sonar-plugin-api:7.8'
     compileOnly 'net.sourceforge.pmd:pmd-java:6.15.0'
 }
 
