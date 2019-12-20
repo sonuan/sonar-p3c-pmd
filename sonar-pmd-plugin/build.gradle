@@ -28,11 +28,11 @@ jar {
                 'Plugin-ChildFirstClassLoader': 'true',
                 'Plugin-Class': 'org.sonar.plugins.pmd.PmdPlugin',
                 'Plugin-Description': 'SonarQube PMD Plugin For p3c',
-                'Plugin-Developers': 'WSY',
-                'Plugin-Homepage': 'https://github.com/sonuan/sonar-p3c-pmd-3.2.1',
-                'Plugin-IssueTrackerUrl': 'https://github.com/sonuan/sonar-p3c-pmd-3.2.1/issues',
+                'Plugin-Developers': 'HB.WSY',
+                'Plugin-Homepage': 'https://github.com/sonuan/sonar-p3c-pmd',
+                'Plugin-IssueTrackerUrl': 'https://github.com/sonuan/sonar-p3c-pmd/issues',
                 'Plugin-License': 'GNU LGPL 3',
-                'Plugin-SourcesUrl': 'https://github.com/sonuan/sonar-p3c-pmd-3.2.1'
+                'Plugin-SourcesUrl': 'https://github.com/sonuan/sonar-p3c-pmd'
     }
     into("META-INF/lib") { from { configurations.compile } }
 }
