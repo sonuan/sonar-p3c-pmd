@@ -12,9 +12,8 @@ subprojects {
     apply plugin: 'maven-publish'
 
     repositories {
-        mavenLocal()
         maven {
-            url = 'http://repo.maven.apache.org/maven2'
+            url = 'http://10.10.60.234:8081/repository/android-public/'
         }
     }
 
