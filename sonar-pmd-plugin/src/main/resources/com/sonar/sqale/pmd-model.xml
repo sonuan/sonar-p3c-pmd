@@ -4601,71 +4601,71 @@
         </prop>
       </chc>
       <!--newadd-->
-      <!--<chc>
-                <rule-repo>pmd</rule-repo>
-                <rule-key>MapOrSetKeyShouldOverrideHashCodeEqualsRule</rule-key>
-                <prop>
-                    <key>remediationFunction</key>
-                    <txt>CONSTANT_ISSUE</txt>
-                </prop>
-                <prop>
-                    <key>offset</key>
-                    <val>2</val>
-                    <txt>min</txt>
-                </prop>
-            </chc>
-            <chc>
-                <rule-repo>pmd</rule-repo>
-                <rule-key>UseQuietReferenceNotationRule</rule-key>
-                <prop>
-                    <key>remediationFunction</key>
-                    <txt>CONSTANT_ISSUE</txt>
-                </prop>
-                <prop>
-                    <key>offset</key>
-                    <val>2</val>
-                    <txt>min</txt>
-                </prop>
-            </chc>
-            <chc>
-                <rule-repo>pmd</rule-repo>
-                <rule-key>MissingOverrideAnnotationRule</rule-key>
-                <prop>
-                    <key>remediationFunction</key>
-                    <txt>CONSTANT_ISSUE</txt>
-                </prop>
-                <prop>
-                    <key>offset</key>
-                    <val>2</val>
-                    <txt>min</txt>
-                </prop>
-            </chc>
-            <chc>
-                <rule-repo>pmd</rule-repo>
-                <rule-key>AvoidAccessStaticViaInstanceRule</rule-key>
-                <prop>
-                    <key>remediationFunction</key>
-                    <txt>CONSTANT_ISSUE</txt>
-                </prop>
-                <prop>
-                    <key>offset</key>
-                    <val>2</val>
-                    <txt>min</txt>
-                </prop>
-            </chc>
-            <chc>
-                <rule-repo>pmd</rule-repo>
-                <rule-key>AvoidUseDeprecationRule</rule-key>
-                <prop>
-                    <key>remediationFunction</key>
-                    <txt>CONSTANT_ISSUE</txt>
-                </prop>
-                <prop>
-                    <key>offset</key>
-                    <val>2</val>
-                    <txt>min</txt>
-                </prop>
-            </chc>
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>MapOrSetKeyShouldOverrideHashCodeEqualsRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>UseQuietReferenceNotationRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>MissingOverrideAnnotationRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>AvoidAccessStaticViaInstanceRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>AvoidUseDeprecationRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>AvoidNegationOperatorRule</rule-key>
@@ -4730,7 +4730,126 @@
           <val>2</val>
           <txt>min</txt>
         </prop>
-      </chc>-->
+      </chc>
+
+
+      <!--   他趣规则 开始   -->
+
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>TouchToastUseRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>TouchLogUseRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>TouchThreadRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>DialogShouldExtentLifecycleDiaRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>ActivityShouldExtentBaseActRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>FragmentShouldExtentBaseFraRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>BaseHttpListDeprecatedRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+
+      <chc>
+        <rule-repo>pmd</rule-repo>
+        <rule-key>LifecycleMethodOrderRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+
+
+      <!--   他趣规则 结束   -->
+
     </chc>
   </chc>
 </sqale>

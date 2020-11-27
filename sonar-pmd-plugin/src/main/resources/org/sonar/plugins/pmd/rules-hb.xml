@@ -1,0 +1,42 @@
+<rules>
+  <!--AlibabaJavaHB-->
+  <rule key="TouchToastUseRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-hb.xml/TouchToastUseRule]]></configKey>
+  </rule>
+
+  <rule key="TouchLogUseRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-hb.xml/TouchLogUseRule]]></configKey>
+  </rule>
+
+  <rule key="TouchThreadRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-hb.xml/TouchThreadRule]]></configKey>
+  </rule>
+
+  <rule key="DialogShouldExtentLifecycleDiaRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-hb.xml/DiaShouldExtentLifecycleDiaRule]]></configKey>
+  </rule>
+
+  <rule key="ActivityShouldExtentBaseActRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-hb.xml/ActShouldExtentBaseActRule]]></configKey>
+  </rule>
+
+  <rule key="FragmentShouldExtentBaseFraRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-hb.xml/FraShouldExtentBaseFraRule]]></configKey>
+  </rule>
+
+  <rule key="BaseHttpListDeprecatedRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-hb.xml/BaseHttpListDeprecatedRule]]></configKey>
+  </rule>
+
+  <rule key="LifecycleMethodOrderRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/ali-hb.xml/LifeCycleMethodOrderRule]]></configKey>
+  </rule>
+</rules>

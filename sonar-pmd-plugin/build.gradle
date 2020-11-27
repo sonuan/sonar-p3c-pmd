@@ -3,7 +3,7 @@
  */
 
 dependencies {
-    compile 'com.alibaba.p3c:p3c-pmd:2.0.1'
+    compile 'hb:p3c-pmd:2.0.3-01'
     compile 'org.sonarsource.sslr-squid-bridge:sslr-squid-bridge:2.7.0.377'
     compile 'net.sourceforge.pmd:pmd-java:6.15.0'
     compile 'jdom:jdom:1.0'
