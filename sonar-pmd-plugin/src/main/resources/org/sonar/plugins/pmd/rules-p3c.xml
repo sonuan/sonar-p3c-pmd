@@ -214,7 +214,7 @@
         <priority>MAJOR</priority>
         <configKey><![CDATA[rulesets/java/ali-set.xml/CollectionInitShouldAssignCapacityRule]]></configKey>
     </rule>
-	
+
 	<!--newadd-->
   <!--<rule key="MapOrSetKeyShouldOverrideHashCodeEqualsRule">
         <priority>CRITICAL</priority>
@@ -240,10 +240,12 @@
 		<priority>MAJOR</priority>
 		<configKey><![CDATA[rulesets/java/ali-flowcontrol.xml/AvoidNegationOperatorRule]]></configKey>
 	</rule>
+  <!-- p3c上改成检查为他趣的规则
 	<rule key="AvoidManuallyCreateThreadRule">
 		<priority>CRITICAL</priority>
 		<configKey><![CDATA[rulesets/java/ali-concurrent.xml/AvoidManuallyCreateThreadRule]]></configKey>
 	</rule>
+	-->
 	<rule key="UseRightCaseForDateFormatRule">
 		<priority>CRITICAL</priority>
 		<configKey><![CDATA[rulesets/java/ali-other.xml/UseRightCaseForDateFormatRule]]></configKey>

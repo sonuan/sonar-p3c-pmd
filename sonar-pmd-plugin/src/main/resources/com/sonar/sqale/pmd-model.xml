@@ -4679,6 +4679,7 @@
           <txt>min</txt>
         </prop>
       </chc>
+      <!-- p3c上改成检查为他趣的规则
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>AvoidManuallyCreateThreadRule</rule-key>
@@ -4692,6 +4693,7 @@
           <txt>min</txt>
         </prop>
       </chc>
+      -->
       <chc>
         <rule-repo>pmd</rule-repo>
         <rule-key>UseRightCaseForDateFormatRule</rule-key>
@@ -4779,7 +4781,7 @@
 
       <chc>
         <rule-repo>pmd</rule-repo>
-        <rule-key>DialogShouldExtentLifecycleDiaRule</rule-key>
+        <rule-key>DialogShouldExtendsLifecycleDialogRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>
@@ -4793,7 +4795,7 @@
 
       <chc>
         <rule-repo>pmd</rule-repo>
-        <rule-key>ActivityShouldExtentBaseActRule</rule-key>
+        <rule-key>ActivityShouldExtendsBaseActivityRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>
@@ -4807,7 +4809,7 @@
 
       <chc>
         <rule-repo>pmd</rule-repo>
-        <rule-key>FragmentShouldExtentBaseFraRule</rule-key>
+        <rule-key>FragmentShouldExtendsBaseFragmentRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>

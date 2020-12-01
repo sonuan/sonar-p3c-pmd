@@ -15,19 +15,19 @@
     <configKey><![CDATA[rulesets/java/ali-hb.xml/TouchThreadRule]]></configKey>
   </rule>
 
-  <rule key="DialogShouldExtentLifecycleDiaRule">
+  <rule key="DialogShouldExtendsLifecycleDialogRule">
     <priority>MAJOR</priority>
-    <configKey><![CDATA[rulesets/java/ali-hb.xml/DiaShouldExtentLifecycleDiaRule]]></configKey>
+    <configKey><![CDATA[rulesets/java/ali-hb.xml/DialogShouldExtendsLifecycleDialogRule]]></configKey>
   </rule>
 
-  <rule key="ActivityShouldExtentBaseActRule">
+  <rule key="ActivityShouldExtendsBaseActivityRule">
     <priority>MAJOR</priority>
-    <configKey><![CDATA[rulesets/java/ali-hb.xml/ActShouldExtentBaseActRule]]></configKey>
+    <configKey><![CDATA[rulesets/java/ali-hb.xml/ActivityShouldExtendsBaseActivityRule]]></configKey>
   </rule>
 
-  <rule key="FragmentShouldExtentBaseFraRule">
+  <rule key="FragmentShouldExtendsBaseFragmentRule">
     <priority>MAJOR</priority>
-    <configKey><![CDATA[rulesets/java/ali-hb.xml/FraShouldExtentBaseFraRule]]></configKey>
+    <configKey><![CDATA[rulesets/java/ali-hb.xml/FragmentShouldExtendsBaseFragmentRule]]></configKey>
   </rule>
 
   <rule key="BaseHttpListDeprecatedRule">
@@ -37,6 +37,6 @@
 
   <rule key="LifecycleMethodOrderRule">
     <priority>MAJOR</priority>
-    <configKey><![CDATA[rulesets/java/ali-hb.xml/LifeCycleMethodOrderRule]]></configKey>
+    <configKey><![CDATA[rulesets/java/ali-hb.xml/LifecycleMethodOrderRule]]></configKey>
   </rule>
 </rules>
